@@ -17,10 +17,10 @@ function counter(){
 
 var x = counter();
 
-x.addCounter(5);
+x.addCounter(5); // 5
 console.log(x._counter)
-x._counter += 5
-x.retrieve()
-x.addCounter(10);
+// x._counter += 5
+x.retrieve() // 5
+x.addCounter(10); 
 console.log(x._counter)
-x.retrieve()
+x.retrieve() // 11 // 16
