@@ -166,3 +166,4 @@
 // console.log(result.total)
 // result.add(10);
 // console.log(result.total)
+
