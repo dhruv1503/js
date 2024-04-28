@@ -99,3 +99,27 @@
 // console.log(calc({num : 10}))
 // console.log(a)
 
+// const user = {
+//     name: "Dhruv",
+//     age: 28
+// }
+// delete user.name
+// console.log(user)
+// user["name"] = "Dhruv Aggarwal"
+// console.log(user)
+// Object.freeze(user);
+// delete user.name;
+// console.log(user)
+// user.name = "Dhruv"
+// console.log(user);
+
+
+const user = {
+    name: "Dhruv",
+    profession: "Dev"
+}
+
+console.log(Object.entries(user))
+
+
+

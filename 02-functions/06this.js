@@ -76,20 +76,20 @@
 
 // What is arrow function is nested in a normal function? 
 
-//  let user = {
-//     name: "Dhruv",
-//     profession: "Dev",
-//     getDetails(){
-//         console.log(this)
-//        const getArrowDetails = () => {
-//         console.log(this)
-//         return this    // Why does it not return then ? ask Shafi 
-//        }
-//        getArrowDetails()
-//     },
-//  }
+ let user = {
+    name: "Dhruv",
+    profession: "Dev",
+    getDetails(){
+        console.log(this)
+       const getArrowDetails = () => {
+        console.log(this)
+        return this    
+       }
+       getArrowDetails()
+    },
+ }
 
-// console.log(user.getDetails())
+console.log(user.getDetails())
 
 // let user = {
 //     name: "Dhruv",
